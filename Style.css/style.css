@@ -254,10 +254,10 @@ h6{
   width: 350px;
 
   opacity: 0;
-  transform:scale(1.6);
+  transform:scale(1.2);
   margin-left: 70px;
   margin-top: 70px;
-  transition:.9s;
+  transition:.6s;
   margin: 0 auto;
 
 
