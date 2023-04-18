@@ -9,3 +9,10 @@ function init() {
 
 
 ymap.ready (init);
+
+
+$(document).ready(function() {
+    $('.menu').click(function() {
+        $('.menu').toggleClass('menu');
+    });
+});

@@ -272,7 +272,7 @@ h6{
   opacity: 2;
   margin-right: 30px;
   width: 400px;
-  height: 60%;
+  height: 66%;
   
   
 }
@@ -485,6 +485,8 @@ footer{
     top: 0;
     left: 35vw;
     z-index: 1;
+    
+ 
 
   }
   .menu > li  {
@@ -509,6 +511,12 @@ footer{
     padding: 1em 2em;
   }
 
+
+
+
+  
+  
+
   /* Dropdown */
   .submenu {
     position: absolute;
@@ -517,6 +525,7 @@ footer{
     margin-left: -100px;
     -webkit-transform: skewX(-25deg);
     -webkit-transform-origin: left top;
+
   }
   .submenu li {
     background-color: #806801;
@@ -575,5 +584,14 @@ footer{
   }
   .menu > li:hover .submenu li:nth-child(odd) {
     -webkit-transform: skewX(-25deg) translateX(-15px);
+  }
+
+  .burger{
+    width: 64px;
+    float: left;
+    position: absolute;
+    left: 86%;
+    
+   
   }
  /* The end Menu */
